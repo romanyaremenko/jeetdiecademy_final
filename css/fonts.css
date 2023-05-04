@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "feijoa";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/test-feijoa-font/TestFeijoa-Medium.otf);
+}
+@font-face {
+  font-family: "bebas_kai";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/bebas_kai/BebasKai.ttf);
+}
+@font-face {
+  font-family: "proxima_nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/proxima-nova/proxima-nova-regular.ttf);
+}
+@font-face {
+  font-family: "proxima_nova";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/proxima-nova/proxima-nova-semibold.ttf);
+}
+/*# sourceMappingURL=fonts.css.map */
