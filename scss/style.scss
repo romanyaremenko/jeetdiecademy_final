@@ -9,7 +9,7 @@
 
 
 .header {
-  background-image: url(../img/header/Background.png);
+  //background-image: url(../img/header/Background.png);
   background-position: center bottom;
   background-size: 1954px 946px;
   background-repeat: no-repeat;
@@ -432,8 +432,8 @@
 .history {
   position: relative;
   height: 650px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%),
-   url(../img/history/jake-weirick-Q_RBVFFXR_g-unsplash.png);
+  //background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%),
+  // url(../img/history/jake-weirick-Q_RBVFFXR_g-unsplash.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -551,8 +551,7 @@
 
 .mission {
   padding-bottom: 100px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%),
-  url(../img/mission/Image.png);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -667,8 +666,8 @@
 .secret {
   padding-top: 50px;
   padding-bottom: 100px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%),
-              url(../img/secret/Image.png);
+  //background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%),
+  //            url(../img/secret/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -850,7 +849,6 @@
 }
 
 .algorithm {
-  background-image: url(../img/algorithm/Frame_8854.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -958,6 +956,9 @@
   &__img {
     &-bc {
       display: block;
+      img {
+        width: 100%;
+      }
       &:last-child {
         display: none;
       }
@@ -984,7 +985,7 @@
 }
 
 .gradiation {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/gradiation/Image.png);
+  //background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/gradiation/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1187,7 +1188,7 @@
 }
 
 .path {
-  background:linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/path/Image.png);
+  //background:linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/path/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1662,7 +1663,7 @@
 }
 
 .contract {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/contract/Frame_8858.png);
+  //background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/contract/Frame_8858.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2016,7 +2017,7 @@
 
 .tokenomics {
   background: #0d0d0d;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
+  //background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
   padding: 100px 0;
   @media (max-width: 768px) {
     padding: 25px 0 50px 0;

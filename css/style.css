@@ -201,6 +201,62 @@ a {
   font-weight: 600;
   src: url(../fonts/proxima-nova/proxima-nova-semibold.ttf);
 }
+.webp .algorithm {
+  background-image: url(../img/algorithm/Frame_8854.webp);
+}
+.webp .secret {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.webp);
+}
+.webp .mission {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/mission/Image.webp);
+}
+.webp .tokenomics {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.webp);
+}
+.webp .path {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/path/Image.webp);
+}
+.webp .gradiation {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/gradiation/Image.webp);
+}
+.webp .contract {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/contract/Frame_8858.webp);
+}
+.webp .header {
+  background-image: url(../img/header/Background.webp);
+}
+.webp .history {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/history/jake-weirick-Q_RBVFFXR_g-unsplash.webp);
+}
+
+.not-webp .algorithm {
+  background-image: url(../img/algorithm/Frame_8854.png);
+}
+.not-webp .secret {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
+}
+.not-webp .mission {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/mission/Image.png);
+}
+.not-webp .tokenomics {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
+}
+.not-webp .path {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/path/Image.png);
+}
+.not-webp .gradiation {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/gradiation/Image.png);
+}
+.not-webp .contract {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/contract/Frame_8858.png);
+}
+.not-webp .header {
+  background-image: url(../img/header/Background.png);
+}
+.not-webp .history {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/history/jake-weirick-Q_RBVFFXR_g-unsplash.png);
+}
+
 .container {
   max-width: 1780px;
   margin: 0 auto;
@@ -866,7 +922,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  background-image: url(../img/header/Background.png);
   background-position: center bottom;
   background-size: 1954px 946px;
   background-repeat: no-repeat;
@@ -1315,7 +1370,6 @@ h1, h2, h3, h4, h5, h6 {
 .history {
   position: relative;
   height: 650px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/history/jake-weirick-Q_RBVFFXR_g-unsplash.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1444,7 +1498,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mission {
   padding-bottom: 100px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/mission/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1575,7 +1628,6 @@ h1, h2, h3, h4, h5, h6 {
 .secret {
   padding-top: 50px;
   padding-bottom: 100px;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1775,7 +1827,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .algorithm {
-  background-image: url(../img/algorithm/Frame_8854.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1888,6 +1939,9 @@ h1, h2, h3, h4, h5, h6 {
 .algorithm__img-bc {
   display: block;
 }
+.algorithm__img-bc img {
+  width: 100%;
+}
 .algorithm__img-bc:last-child {
   display: none;
 }
@@ -1911,7 +1965,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gradiation {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/gradiation/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2135,7 +2188,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .path {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/path/Image.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2695,7 +2747,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contract {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/contract/Frame_8858.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3090,7 +3141,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .tokenomics {
   background: #0d0d0d;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 16.69%, rgba(0, 0, 0, 0) 83.91%, #000000 100%), url(../img/secret/Image.png);
   padding: 100px 0;
 }
 @media (max-width: 768px) {

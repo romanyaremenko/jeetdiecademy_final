@@ -301,3 +301,25 @@ window.addEventListener('resize', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
+
+
+function checkWebPSupport(callback) {
+  var img = new Image();
+  img.onload = function() {
+    var isSupported = (img.width > 0) && (img.height > 0);
+    callback(isSupported);
+  };
+  img.onerror = function() {
+    callback(false);
+  };
+  img.src = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
+}
+
+checkWebPSupport(function(isSupported) {
+  if (isSupported) {
+    document.querySelector('body').classList.add('webp')
+  } else {
+    console.log('WebP is not supported.');
+    document.querySelector('body').classList.add('not-webp')
+  }
+});
